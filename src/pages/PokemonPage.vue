@@ -1,9 +1,7 @@
 <template>
   <h1>Who's that pokémon?</h1>  
-  <!-- TODO img -->
-  <PokemonImage />
 
-  <!-- TODO options -->
+  <PokemonImage :pokemonId="7" :showPokemon="true" /> <!-- : == v-bind -->
   <PokemonOptions />
 
 </template>
