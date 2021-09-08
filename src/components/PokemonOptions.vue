@@ -1,7 +1,7 @@
 <template>
   <div class="options-container">
     <ul>
-      <li v-for="pokemon in pokemons" :key="pokemon.id">
+      <li class="pokemon-name" v-for="pokemon in pokemons" :key="pokemon.id">
         {{ pokemon.name }}
       </li>
     </ul>
@@ -40,5 +40,9 @@ li:hover {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+.pokemon-name {
+  text-transform: capitalize;
 }
 </style>
