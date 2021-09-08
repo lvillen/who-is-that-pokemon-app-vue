@@ -1,4 +1,4 @@
-# 04-pokemon-game
+# Who's that pokémon app
 
 ## Project setup
 ```
@@ -19,6 +19,3 @@ npm run build
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,0 +1,21 @@
+<template>
+  <h1>Who's that pokémon?</h1>  
+  <!-- TODO img -->
+  <PokemonImage />
+
+  <!-- TODO options -->
+  <PokemonOptions />
+
+</template>
+
+<script>
+import PokemonImage from '@/components/PokemonImage'
+import PokemonOptions from '@/components/PokemonOptions'
+
+export default {
+  components: {
+    PokemonImage,
+    PokemonOptions
+  }
+}
+</script>
